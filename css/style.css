@@ -58,8 +58,20 @@ body {
   font-size: 2rem;
 }
 
-.footerIcon:hover {
-  color: gray;
+.bi-twitter:hover {
+  color: #2badda;
+}
+
+.bi-instagram:hover {
+  color: #eb388c;
+}
+
+.bi-facebook:hover {
+  color: #0098ee;
+}
+
+.bi-github:hover {
+  color: #1a1f23;
 }
 
 /* Contact */ 
@@ -145,7 +157,6 @@ body {
  .flex-equal > * {
   flex: 1;
 }
-
 
 @media (min-width: 768px) {
   .flex-md-equal > * {
