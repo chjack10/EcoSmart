@@ -1,0 +1,24 @@
+//Assets //
+
+@import "./assets/fonts";
+@import "./assets/variables";
+@import "./assets/miscellaneous";
+
+// Structure //
+
+@import "main";
+@import "header";
+@import "footer";
+
+// Pages //
+
+@import "./pages/home";
+@import "./pages/products";
+@import "./pages/community";
+@import "./pages/about-us";
+@import "./pages/contact";
+
+// Media queries //
+
+@import "media";
+

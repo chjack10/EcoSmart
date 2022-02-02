@@ -1,0 +1,36 @@
+.nav-masthead {
+  
+    .nav-link { 
+      color: rgba(255, 255, 255, .5);
+  
+        &:hover {
+          color: white;
+        }
+    }
+    
+    .active {
+      color: white;
+    }
+  
+  }
+  
+  .nav-item {
+  
+    &:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0px;
+      transition: width .6s ease, background-color .6s ease;
+    }
+  
+    &:hover {
+      &:after {
+        width: 100%;
+        background: #76c23d;     
+      }
+    }
+  
+  }
+    

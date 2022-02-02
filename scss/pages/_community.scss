@@ -1,0 +1,15 @@
+#communityBannerImage {
+    @include backgroundImage($communityBgImgPath);
+  }
+  
+  .communityImage {
+    transition: .5s ease-in-out;
+  }
+  
+  .communityImage{
+    
+    &:hover {
+      filter: brightness(70%);
+    }
+  } 
+  

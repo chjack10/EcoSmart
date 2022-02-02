@@ -1,58 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-body {
-  background-color: whitesmoke; /* cornsilk #f1f1f1 */
-  color: black;
-  font-family: "Arimo", sans-serif, bold;
-}
-
-/* Miscellaneous */ 
-
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 .title {
   font-family: 'Dancing Script', cursive;
   font-size: 3.5rem;
 }
 
-/* Header */
-
-.nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.nav-link:hover {
+body {
+  background-color: whitesmoke;
+  color: black;
+  font-family: "Arimo", sans-serif, bold;
+}
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-masthead .nav-link:hover {
   color: white;
 }
 
 .nav-masthead .active {
   color: white;
-} 
+}
 
 .nav-item:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0px;
-	transition: width .6s ease, background-color .6s ease;
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  -webkit-transition: width .6s ease, background-color .6s ease;
+  transition: width .6s ease, background-color .6s ease;
 }
 
 .nav-item:hover:after {
-	width: 100%;
-	background: #76c23d;
+  width: 100%;
+  background: #76c23d;
 }
-
-.nav-masthead .active  {
-  color: white;
-} 
-
-/* Footer */
 
 .footerIcon {
   font-size: 2rem;
@@ -74,32 +64,11 @@ body {
   color: #1a1f23;
 }
 
-/* Contact */ 
-
-#contactForm {
-  max-width: 500px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* Community */
-
-#communityBannerImage {
-  background: url(../img/community/bannerCommunity.jpg) no-repeat;
+.homeBanner {
+  background: url("../img/indexBanner.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
-
-.communityImage {
-  transition: .5s ease-in-out;
-}
-
-.communityImage:hover {
-  filter: brightness(70%);
-}
-
-/* Products */ 
 
 .carousel-inner {
   margin-top: 4rem;
@@ -114,15 +83,21 @@ body {
   max-width: 500px;
 }
 
-/* Home */
-
-.homeBanner {
-  background: url(../img/indexBanner.jpg) no-repeat;
+#communityBannerImage {
+  background: url("../img/community/bannerCommunity.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* About us */
+.communityImage {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.communityImage:hover {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+}
 
 .product-device {
   position: absolute;
@@ -132,7 +107,8 @@ body {
   height: 540px;
   background-color: #333;
   border-radius: 21px;
-  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 
 .product-device::before {
@@ -142,7 +118,7 @@ body {
   bottom: 10%;
   left: 10px;
   content: "";
-  background-color: rgba(255, 255, 255, .1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
 
@@ -151,15 +127,30 @@ body {
   right: auto;
   bottom: 0;
   left: 5%;
-  background-color: #ade4c9; /* #e5e5e5; */ /* #d3f3dd */
+  background-color: #ade4c9;
+  /* #e5e5e5; */
+  /* #d3f3dd */
 }
 
- .flex-equal > * {
-  flex: 1;
+.flex-equal > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#contactForm {
+  max-width: 500px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 @media (min-width: 768px) {
   .flex-md-equal > * {
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
 }
+/*# sourceMappingURL=style.css.map */

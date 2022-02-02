@@ -1,0 +1,32 @@
+.footerIcon {
+    font-size: 2rem;
+  }
+  
+  .bi-twitter{
+ 
+    &:hover {
+    color: $twitter;
+    }
+  }
+  
+  .bi-instagram{
+  
+    &:hover {
+    color: $instagram;
+    }
+
+  }
+  
+  .bi-facebook {
+  
+    &:hover {
+    color: $facebook;
+    }
+  }
+  
+  .bi-github { 
+    
+    &:hover {
+    color: $github;
+    }
+  }

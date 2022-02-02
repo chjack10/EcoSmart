@@ -1,0 +1,10 @@
+@mixin backgroundImage($bgImgPath) {
+  background: url($bgImgPath) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+      
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+}
