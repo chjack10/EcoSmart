@@ -47,6 +47,8 @@ body {
 
 .footerIcon {
   font-size: 2rem;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .bi-twitter:hover {
@@ -170,9 +172,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .input-group {
-    width: 80% !important;
+    width: 65% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
