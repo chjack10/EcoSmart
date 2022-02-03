@@ -50,46 +50,81 @@
     </nav>
   </header>
 
-  <main class="vh-100 position-relative pt-3 mt-5">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="position-absolute">
-      <path fill="#76c13c" fill-opacity="0.75"
-        d="M0,160L40,165.3C80,171,160,181,240,197.3C320,213,400,235,480,229.3C560,224,640,192,720,149.3C800,107,880,53,960,26.7C1040,0,1120,0,1200,32C1280,64,1360,128,1400,160L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
-      </path>
-    </svg>
+  <main>
+    <section class="vh-100 position-relative pt-3 mt-5">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="position-absolute">
+        <path fill="#76c13c" fill-opacity="0.75"
+          d="M0,160L40,165.3C80,171,160,181,240,197.3C320,213,400,235,480,229.3C560,224,640,192,720,149.3C800,107,880,53,960,26.7C1040,0,1120,0,1200,32C1280,64,1360,128,1400,160L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+        </path>
+      </svg>
 
-    <div class="container border-gray rounded shadow position-absolute mt-4 pt-4" id="contactForm">
-      <div class="text-center mb-4">
-        <div>
-          <img src="./img/support.png" alt="support image" class="img-fluid ps-5" />
+      <div class="container border-gray rounded shadow position-absolute mt-4 pt-4" id="contactForm">
+        <div class="text-center mb-4">
+          <div>
+            <img src="./img/support.png" alt="support image" class="img-fluid ps-5" />
+          </div>
+          <h2>Contact us</h2>
+          <p class="fs-6 fst-italic">We're looking forward to your message!</p>
         </div>
-        <h2>Contact us</h2>
-        <p class="fs-6 fst-italic">We're looking forward to your message!</p>
+
+        <form method="POST" data-netlify="true" action="#">
+          <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="email@example.com" />
+          </div>
+
+          <div class="mb-3">
+            <input type="input" class="form-control" name="name" placeholder="Full name" />
+          </div>
+
+          <div class="mb-3">
+            <input type="tel" class="form-control" name="phone" placeholder="Subject" />
+          </div>
+
+          <div class="mb-3">
+            <textarea class="form-control" name="message" rows="4" placeholder="Your message goes here..."></textarea>
+          </div>
+
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary w-100 fs-5">
+              Send message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="container bg-dark text-white p-1 pt-2 rounded shadow">
+
+      <div class="text-center">
+        <h3>Get our latest news!</h3>
+        <p>Suscribe to our newsletter</p>
       </div>
 
-      <form method="POST" data-netlify="true" action="#">
-        <div class="mb-3">
-          <input type="email" class="form-control" name="email" placeholder="email@example.com" />
-        </div>
+      <div class="input-group mx-auto my-4">
+        <input class="form-control" type="email" placeholder="Enter your email" name="newsletter"
+          aria-describedby="sendButton">
+        <button class="btn btn-outline-success" id="sendButton">
+          <i class="bi bi-send"></i>
+        </button>
+      </div>
 
-        <div class="mb-3">
-          <input type="input" class="form-control" name="name" placeholder="Full name" />
-        </div>
+      <div class="my-3">
+        <ul class="d-flex flex-wrap justify-content-around list-unstyled">
+          <li class="mx-2">
+            <i class="bi bi-clock"><span class="ms-2 nav-item">Mon-Fri: 09hs to 18hs</span></i>
+          </li>
+          <li class="mx-2">
+            <i class="bi bi-telephone"><span class="ms-2 nav-item">141 6545-4531</span></i>
+          </li>
+          <li class="mx-2">
+            <i class="bi bi-envelope"><span class="ms-2 nav-item">contact@ecosmart.com</span></i>
+          </li>
+        </ul>
+      </div>
 
-        <div class="mb-3">
-          <input type="tel" class="form-control" name="phone" placeholder="Subject" />
-        </div>
 
-        <div class="mb-3">
-          <textarea class="form-control" name="message" rows="4" placeholder="Your message goes here..."></textarea>
-        </div>
+    </section>
 
-        <div class="mb-3">
-          <button type="submit" class="btn btn-primary w-100 fs-5">
-            Send message
-          </button>
-        </div>
-      </form>
-    </div>
   </main>
 
   <footer class="container">
