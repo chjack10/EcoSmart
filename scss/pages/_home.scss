@@ -1,6 +1,6 @@
 .homeBanner {
-    @include backgroundImage($indexBgImgPath);
-  }
+  @include backgroundImage($indexBgImgPath);
+}
   
 .cardDescription {
   font-family: 'DM Sans', sans-serif;

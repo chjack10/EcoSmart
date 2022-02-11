@@ -3,8 +3,34 @@
   background-size: cover;
   background-position: center;
 }
-      
+
 .title {
   font-family: 'Dancing Script', cursive;
   font-size: 3.5rem;
+}
+
+.headingLines {
+  @extend .title;
+  display: inline-block;
+  position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 2.5em;
+      height: 0.03em;
+      background-color: #202529;
+      top: 0.6em; 
+      right: -3em;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 2.5em;
+      height: 0.03em;
+      background-color: #202529;
+      top: 0.6em;
+      left: -3em;
+    }
 }
