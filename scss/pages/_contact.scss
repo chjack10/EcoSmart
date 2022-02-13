@@ -5,3 +5,12 @@
 .input-group {
   width: 30%;
 }
+
+#contactForm {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  max-width: 31.25rem;
+}

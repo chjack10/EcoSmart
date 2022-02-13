@@ -5,16 +5,15 @@
    flex-direction: column;
    gap: 1rem;
   }
-  
-  #products__carrousel {
-    margin-top: 6em;
-    margin-bottom: 2em;
-  }
 
 }
 
 @media only screen and (max-width: 768px) {
-  
+
+  .carousel-inner {
+    margin-top: 6rem;
+  }
+
   .headingLines::after,::before  {
     display: none;
   }
@@ -26,6 +25,7 @@
   .input-group {
     width: 65% !important;
   }
+  
    .headingLines {
     font-size: 2.8rem;
   }
