@@ -1,7 +1,27 @@
 .homeBanner {
   @include backgroundImage($indexBgImgPath);
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
 }
   
 .cardDescription {
   font-family: 'DM Sans', sans-serif;
+}
+
+.home__hero__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__main__content {
+  overflow: hidden;
+
+  .home__main__row {
+    display: flex;
+    align-items: center;
+  }
+
 }

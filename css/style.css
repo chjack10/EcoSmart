@@ -97,15 +97,62 @@ body {
   background: url("../img/indexBanner.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
 }
 
 .cardDescription {
   font-family: 'DM Sans', sans-serif;
 }
 
+.home__hero__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home__main__content {
+  overflow: hidden;
+}
+
+.home__main__content .home__main__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .carousel-inner {
   margin-top: 4rem;
   max-height: 80vh;
+}
+
+.productsHeading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .card-title {
@@ -199,6 +246,16 @@ body {
   background: url("../img/community/bannerCommunity.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .communityImage {
@@ -215,12 +272,56 @@ body {
   background: url("../img/about-us/bgHeader.png") no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutUs__video__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutUs__map__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutUs__media, .aboutUs__media_map {
+  max-width: 670px;
+}
+
+.aboutUs__media_map {
+  -webkit-filter: grayscale(75%);
+          filter: grayscale(75%);
 }
 
 .contact {
   background: url("../img/contact/contactbgImg.png") no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  position: relative;
 }
 
 .input-group {
@@ -235,6 +336,16 @@ body {
           transform: translate(-50%, -50%);
   background: transparent;
   max-width: 31.25rem;
+}
+
+#contact__info__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 @media only screen and (max-width: 576px) {

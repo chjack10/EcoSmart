@@ -1,5 +1,7 @@
 .contact {
   @include backgroundImage($contactBgImgPath);
+  height: 100vh;
+  position: relative;
 }
 
 .input-group {
@@ -13,4 +15,10 @@
   transform: translate(-50%, -50%);
   background: transparent;
   max-width: 31.25rem;
+}
+
+#contact__info__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

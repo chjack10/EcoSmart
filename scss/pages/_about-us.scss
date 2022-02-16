@@ -1,3 +1,28 @@
 .aboutUs__Header {
   @include backgroundImage($aboutUsBgImgPath);
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutUs__video__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.aboutUs__map__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutUs__media {
+  max-width: 670px;
+}
+
+.aboutUs__media_map{
+  @extend .aboutUs__media;
+  filter: grayscale(75%);
 }

@@ -1,15 +1,16 @@
 #communityBannerImage {
     @include backgroundImage($communityBgImgPath);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .communityImage {
     transition: .5s ease-in-out;
-  }
-  
-  .communityImage{
     
     &:hover {
       filter: brightness(70%);
     }
-  } 
-  
+ 
+  }
