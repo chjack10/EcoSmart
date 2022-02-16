@@ -1,6 +1,0 @@
-En todos los *.html se agregó:
-
-1. Descripción: con los <meta> description, se agregó una breve introducción de cada página.
-2. Palabras clave: En todas las páginas se agregó keywords genéricas y específicas a cada página.
-3. Encabezado: Se agregó un título relacionado a la temática de la página.
-4. Imágenes: Se usó .png para imágenes transparentes e imágenes con una resolución no muy grande para la galería. (Aunque se podría mejorar aún más comprimiendo una por una).
