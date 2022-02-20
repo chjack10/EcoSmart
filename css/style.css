@@ -210,6 +210,10 @@ body {
   overflow: hidden;
 }
 
+.media__wrapper {
+  overflow-x: hidden;
+}
+
 .aboutUs__video__container {
   display: flex;
   align-items: flex-start;
