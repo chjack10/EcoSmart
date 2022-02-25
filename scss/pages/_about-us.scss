@@ -1,7 +1,7 @@
 .aboutUs__Header {
   @include backgroundImage($aboutUsBgImgPath);
   position: relative;
-  overflow: hidden;
+  
 }
 
 .media__wrapper{

@@ -64,6 +64,18 @@ body {
   background: #76c23d;
 }
 
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__media {
+  display: flex;
+  justify-content: end;
+}
+
 .footerIcon {
   font-size: 2rem;
   transition: 0.3s ease-in-out;
@@ -186,7 +198,7 @@ body {
 }
 
 #communityBannerImage {
-  background: url("../img/community/bannerCommunity.jpg") no-repeat;
+  background: url("../img/bannerCommunity.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -203,11 +215,10 @@ body {
 }
 
 .aboutUs__Header {
-  background: url("../img/about-us/bgHeader.png") no-repeat;
+  background: url("../img/bgHeader.png") no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-  overflow: hidden;
 }
 
 .media__wrapper {
@@ -237,7 +248,7 @@ body {
 }
 
 .contact {
-  background: url("../img/contact/contactbgImg.png") no-repeat;
+  background: url("../img/contactbgImg.png") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -281,7 +292,7 @@ body {
 }
 @media only screen and (max-width: 992px) {
   .input-group {
-    width: 65% !important;
+    width: 65%;
   }
 
   .headingLines {

@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <!-- SEO -->
   <meta name="description" content="More information regarding our organization and philosophy">
   <meta name="keywords"
@@ -16,8 +16,7 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
   <meta property="og:title" content="chjack10">
-  <meta property="og:description" 
-  content="More information regarding our organization and philosophy">
+  <meta property="og:description" content="More information regarding our organization and philosophy">
   <meta property="og:url" content="https://chjack10.github.io/EcoSmart/about-us.html">
   <meta property="og:image" content="img/ecoSmartLogo.png">
   <meta property="og:image:width" content="1200">
@@ -34,7 +33,7 @@
 
 <body>
   <header>
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark p-md-0 bg-dark shadow p-3 mb-5">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark p-md-0 p-3 mb-5">
       <div class="container">
         <a class="navbar-brand fst-italic fw-bold" href="./index.html">
           <img src="./img/ecoSmartLogo.png" alt="EcoSmart Logo" width="70" height="60" class="mx-2" />
@@ -44,12 +43,10 @@
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="mx-auto"></div>
-          <ul class="nav nav-masthead justify-content-center float-md-end">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="nav nav-masthead justify-content-around">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./products.html">Products</a>
@@ -70,6 +67,7 @@
   </header>
 
   <main>
+
     <!-- Central header -->
 
     <section>
@@ -84,18 +82,16 @@
           </p>
           <a class="btn btn-outline-success" href="#">Learn more</a>
         </div>
-
       </div>
     </section>
 
     <!-- Map and video section -->
 
     <section class="container-fluid bg-dark text-white p-5">
-
       <div class="media__wrapper row g-5 px-1">
-        
+
         <div class="col-lg-6 aboutUs__video__container">
-          <h2 class="display-5 animate__animated animate__fadeInLeft animate__slow">Making a  impact</h2>
+          <h2 class="display-5 animate__animated animate__fadeInLeft animate__slow">Making a impact</h2>
           <p class="lead fst-italic animate__animated animate__fadeInLeft animate__slower">We go straight to the source
             to make sure we’re creating big changes.</p>
           <div class="ratio ratio-16x9 py-4 my-4 aboutUs__media">
@@ -121,15 +117,15 @@
   </main>
 
   <footer class="container">
-    <div class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2 border-top">
-      <div class="col-md-4 d-flex align-items-center">
+    <div class="footer__wrapper py-2 my-2 border-top">
+      <div class="col-md-4">
         <a href="https://github.com/chjack10" class="mb-3 me-2 mb-md-1 text-muted text-decoration-none lh-1">
           <i class="bi bi-github footerIcon"></i>
         </a>
         <span class="text-muted">&copy; 2022 EcoSmart</span>
       </div>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <ul class="footer__media nav col-md-4 list-unstyled">
         <li class="ms-3">
           <a class="text-muted" href="https://twitter.com"><i class="bi bi-twitter footerIcon"></i></a>
         </li>
